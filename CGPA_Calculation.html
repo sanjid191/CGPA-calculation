@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculatation</title>
+    <link rel="stylesheet" href="CGPA_Calculation.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <form id="semesterForm">
+            <div class="input-group">
+                <label for="semester">Semester Number:</label>
+                <input type="number" id="semester" required>
+            </div>
+            <div class="input-group">
+                <label for="credits">Total Credits:</label>
+                <input type="number" id="credits" required>
+            </div>
+            <div class="input-group">
+                <label for="gpa">Semester GPA:</label>
+                <input type="number" id="gpa" step="0.01" required>
+            </div>
+            <button type="button" id="addSemester">Add Semester</button>
+            <br><br>
+        </form>
+        <div id="semesterList"></div>
+        <button type="button" id="calculateCGPA">Calculate CGPA</button><br><br>
+        <div id="finalCGPA"></div>
+        <br><br>
+        <button onclick="navigateTo('index.html')" type="button" id="BackButton">Back</button>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="Calculatation.js"></script>
+</body>
+</html>

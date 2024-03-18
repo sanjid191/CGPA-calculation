@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate CGPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to CGPA Calculator</h1>
+        <div class="options">
+            <button onclick="navigateTo('Grade.html')">Calculate Grade</button>
+            <button onclick="navigateTo('SemesterGPA.html')">Calculate Semester GPA</button>
+            <button onclick="navigateTo('CGPA_Calculation.html')">Calculate Overall CGPA</button>
+        </div>
+        <div id="gradeCalculator" style="display:none">
+            <a href="Grade.html">Grade Calculator</a>
+        </div>
+        <div id="semesterGPACalculator" style="display:none">
+            <a href="SemesterGPA.html">Semester GPA Calculator</a>
+        </div>
+        <div id="overallCGPACalculator" style="display:none">
+            <a href="CGPA_Calculation.html">Overall CGPA Calculator</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="Calculatation.js"></script>
+</body>
+</html>
