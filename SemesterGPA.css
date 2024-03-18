@@ -7,7 +7,8 @@ body {
     margin: 0 auto;
     padding: 20px;
     border: 5px solid #ccc;
-    border-radius: 5px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #37b62e;
 }
 
 h1 {
@@ -24,6 +25,8 @@ input[type="number"] {
     width: calc(50% - 5px);
     padding: 8px;
     margin-right: 5px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #37b62e;
 }
 
 button {
@@ -49,6 +52,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    box-shadow: 0 0 15px #37b62e;
 }
 
 table, th, td {
@@ -75,6 +79,8 @@ th, td {
 
 button {
     margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #37b62e;
 }
 
 table {
@@ -90,4 +96,7 @@ table, th, td {
 th, td {
     padding: 8px;
     text-align: left;
+}
+button:hover {
+    background-color: #c1a4c7;
 }
